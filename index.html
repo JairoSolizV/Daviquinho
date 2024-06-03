@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Transportation in Santa Cruz, Bolivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#bus-routes">Rutas de Buses</a></li>
+                <li><a href="#bus-photos">Fotos de Buses</a></li>
+                <li><a href="#bus-schedules">Horarios de Buses</a></li>
+                <li><a href="#rates-payment">Tarifas</a></li>
+                <li><a href="#news-updates">Noticias y actualizaciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="bus-routes">
+            <h2>Rutas de Buses</h2>
+            <div class="routes">
+                <!-- Photos and descriptions of main bus routes go here -->
+                <h2>Ruta 13</h2>
+                <img src="./rutas/1ruta.jpeg" alt="ruta 13">
+                
+                <hr>
+                <h2>Ruta 32</h2>
+                <img src="./rutas/2ruta.jpeg" alt="bus-routes">
+
+                <hr>
+                <h2>Ruta 51</h2>
+                <img src="./rutas/3ruta.jpeg" alt="bus-routes">
+                <hr>
+            </div>
+        </section>
+        <section id="bus-photos">
+            <h2>Fotos de Buses</h2>
+            <div class="photos">
+                <!-- Photos of buses go here -->
+                <img src="./micros/1bus.jpeg" alt="la 13">
+                <img src="./micros/2bus.jpeg" alt="la 32">
+                <img src="./micros/3bus.jpeg" alt="la 51">
+            </div>
+        </section>
+        <section id="bus-schedules">
+            <h2>Horario de Buses</h2>
+            <div class="schedules">
+                <!-- Bus schedules go here -->
+                <h3>Horarios</h3>
+                <h3>Lunes a viernes: 5:00 a.m a 22:00 p.m.</h3>
+                <h3>Sábado a Domingo: 7:00 a.m a 19:00 p.m</h3>
+            </div>
+        </section>
+        <section id="rates-payment">
+            <h2>Tarifas</h2>
+            <div class="rates">
+                <!-- Information about rates and payment methods go here -->
+                <h3>Adulto: 2Bs</h3>
+                <h3>Estudiante: 1Bs</h3>
+                <h3>Adulto Mayor: 1Bs</h3>
+                <h3>Niño: 50 cent.</h3>
+            </div>
+        </section>
+        <section id="news-updates">
+            <h2>Noticias y actualizaciones</h2>
+            <div class="news">
+                <!-- News and updates go here -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Public Transportation in Santa Cruz, Bolivia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
